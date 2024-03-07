@@ -7,17 +7,19 @@ fluidPage(
     # Application title
     titlePanel("Volumen im Gärtank berechnen"),
     
+    # App with 2 rows: 1st for slider to choose input value
+    # 2nd for text output of calculated result
     fluidRow(
       column(12,
              sliderInput("cm",
                          "Resthöhe in cm:",
-                         min = 1,
-                         max = 109.0,
-                         value = 25.5,
+                         min = 0,
+                         max = 110.0,
+                         value = 26.5,
                          step = .1,
-                         width = "100%"),
-             br(),
-             textOutput("textPlot")
-      )
+                         width = "50%"),
+      ),
+      column(12,
+             textOutput("textPlot"))
     )
 )

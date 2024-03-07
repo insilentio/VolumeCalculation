@@ -6,7 +6,7 @@ function(input, output, session) {
   
   # function with the determined algorithm to calculate volume
   get_volume <- function(height, hpl = .425) {
-    stopifnot(height > 0 && height < 110)
+    stopifnot(height >= 0 && height <= 110)
     
     cyl <- (110 - height) / hpl
     floor <- 3.5
