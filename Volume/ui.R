@@ -14,7 +14,8 @@ fluidPage(
                          min = 1,
                          max = 109.0,
                          value = 25.5,
-                         step = .1),
+                         step = .1,
+                         width = "100%"),
              br(),
              textOutput("textPlot")
       )
