@@ -12,3 +12,5 @@ The calculated values have been verified by filling the tank with 50l and 100l, 
 |---------------|-----------------|-------------------|
 | 50l ( + 3.5l) | 88.8cm          | 88.7              |
 | 100l (+ 3.5l) | 67.7cm          | 67.5              |
+
+The App can be integrated in Websites via iFrame. Original lies here: https://insilentio.shinyapps.io/VolumeCalc/
